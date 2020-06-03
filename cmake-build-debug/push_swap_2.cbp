@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap_2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_2">
+				<Option output="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/push_swap_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Valeria/CLionProjects/push_swap_2/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/push_swap_2/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_2/fast">
+				<Option output="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/push_swap_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Valeria/CLionProjects/push_swap_2/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/push_swap_2/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/push_swap_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/inc/ft_printf.h">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/inc/libft.h">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/inc/push_swap.h">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/main.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_abs.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_atoi.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_bzero.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_colors.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_dtoa.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_int_length_base.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isalnum.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isalpha.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isascii.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isdigit.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isprint.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_isspace.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_itoa.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstadd.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstadd_last.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstdel.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstdelone.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstiter.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstmap.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstnew.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_lstrev.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_ltoa.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memalloc.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memccpy.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memchr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memcmp.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memcpy.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memdel.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memmove.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_memset.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_mng_float.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_mng_params.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_pow.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_arg.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_char.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_float.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_float_concat.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_float_determ.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_float_spec.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_int_0.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_int_1.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_oct_hex.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_print_str.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_printf.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putchar.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putchar_fd.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putendl.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putendl_fd.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putnbr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putnbr_fd.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putstr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_putstr_fd.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_read_params.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strcat.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strchr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strchrn.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strclr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strcmp.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strcpy.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strdel.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strdup.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strequ.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_striter.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_striteri.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strjoin.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strlcat.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strlen.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strmap.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strmapi.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strncat.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strncmp.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strncpy.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strnequ.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strnew.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strnstr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strrchr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strrev.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strsplit.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strstr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strsub.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strtolower.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strtoupper.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_strtrim.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_tolower.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_toupper.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_wordlen.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/src/ft_wrdcnt.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/push_swap_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

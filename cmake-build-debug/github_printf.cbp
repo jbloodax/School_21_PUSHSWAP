@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="github_printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="github_printf">
+				<Option output="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/github_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Valeria/CLionProjects/github_printf/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/github_printf/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 github_printf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="github_printf/fast">
+				<Option output="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/github_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Valeria/CLionProjects/github_printf/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/github_printf/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 github_printf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/github_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/inc/ft_printf.h">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/inc/libft.h">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/main.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_abs.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_atoi.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_bzero.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_colors.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_dtoa.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_int_length_base.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isalnum.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isalpha.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isascii.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isdigit.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isprint.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_isspace.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_itoa.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstadd.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstadd_last.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstdel.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstdelone.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstiter.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstmap.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstnew.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_lstrev.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_ltoa.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memalloc.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memccpy.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memchr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memcmp.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memcpy.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memdel.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memmove.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_memset.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_mng_float.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_mng_params.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_pow.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_arg.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_char.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_float.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_float_concat.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_float_determ.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_float_spec.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_int_0.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_int_1.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_oct_hex.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_print_str.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_printf.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putchar.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putchar_fd.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putendl.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putendl_fd.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putnbr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putnbr_fd.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putstr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_putstr_fd.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_read_params.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strcat.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strchr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strchrn.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strclr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strcmp.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strcpy.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strdel.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strdup.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strequ.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_striter.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_striteri.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strjoin.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strlcat.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strlen.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strmap.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strmapi.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strncat.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strncmp.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strncpy.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strnequ.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strnew.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strnstr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strrchr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strrev.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strsplit.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strstr.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strsub.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strtolower.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strtoupper.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_strtrim.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_tolower.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_toupper.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_wordlen.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/src/ft_wrdcnt.c">
+			<Option target="github_printf"/>
+		</Unit>
+		<Unit filename="C:/Users/Valeria/CLionProjects/github_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
