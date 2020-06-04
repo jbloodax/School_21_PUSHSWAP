@@ -26,6 +26,8 @@ typedef struct s_dbll_lst
     int max;
     int median;
     tt_node *top;
+    tt_node *post_top;
+    tt_node *pre_down;
     tt_node *down;
 }               t_dbll_lst;
 
