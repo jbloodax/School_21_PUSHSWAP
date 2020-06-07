@@ -14,7 +14,6 @@ t_dbll_lst *create_dbll_list()
     list->median = 0;
     list->top = NULL;
     list->post_top = NULL;
-//    list->pre_down = NULL;
     list->down = NULL;
     return (list);
 }
@@ -36,7 +35,7 @@ t_dbll_lst *input_chain(int ac, char **av, t_dbll_lst *chain)
             return (NULL); // ft_lstnew
         node->data = ft_atoi(av[i]);
 
-        node->prev = chain->top;
+        node->prev = chain->down;
         node->next = NULL;
         if (chain->down)
             chain->down->next = node;
@@ -46,7 +45,9 @@ t_dbll_lst *input_chain(int ac, char **av, t_dbll_lst *chain)
         chain->size++;
     }
     chain->post_top = chain->top->next;
+    chain->top->prev = NULL;
     return (chain);
+
 }
 
 
@@ -158,6 +159,7 @@ void    *ps_push(t_dbll_lst *stack_from, t_dbll_lst *stack_to)
 
     stack_to->top->prev = NULL;
     stack_from->top->prev = NULL;
+    stack_from->down->next = NULL;
 
     stack_from->size--;
     stack_to->size++;
@@ -187,7 +189,6 @@ void *ps_swap(t_dbll_lst *stack)
     stack->post_top = stack->top->next;
     stack->post_top->prev = stack->top;
     stack->top->prev = NULL;
-//    free(tmp);
 
 
 
@@ -198,25 +199,15 @@ void *ps_revrotate(t_dbll_lst *stack)
 {
     tt_node *tmp;
 
-
     tmp = stack->down;
-    stack->down->next = stack->top;
-    stack->post_top = stack->top;
-    stack->top = stack->down;
     stack->down = stack->down->prev;
-
+    stack->post_top = stack->top;
+    tmp->next = stack->post_top;
+    stack->post_top->prev = tmp;
+    stack->top = tmp;
     stack->top->prev = NULL;
-    stack->down->next =NULL;
+    stack->down->next = NULL;
 
-//    tmp = stack->down;
-//    stack->down = stack->down->prev;
-//    tmp->next = stack->top;
-//    stack->post_top = stack->top;
-//    stack->top->prev = tmp;
-//    stack->top = tmp;
-//
-//    stack->top->prev = NULL;
-//    stack->down->next = NULL;
 }
 
 void *ps_rotate(t_dbll_lst *stack)
@@ -264,8 +255,16 @@ void *algo(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
     int count;
 
     count = stack_a->size;
-//    while (count-- > 2)
-//    {
+    if (stack_a->down->data < stack_a->top->data)
+        ps_revrotate(stack_a);
+    if (stack_a->top->data > stack_a->median)
+        ps_rotate(stack_a);
+
+    if (stack_b->top->data < stack_b->median
+        && stack_b->top->data > stack_b->min)
+        ps_rotate(stack_b);
+
+
     if (stack_a->top->data < stack_a->post_top->data
         && stack_a->top->data < stack_a->down->data)
         ps_push(stack_a, stack_b);
@@ -277,7 +276,7 @@ void *algo(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
     {
         ps_push(stack_a, stack_b);
         ps_rotate(stack_b);
-//        }
+
 
 //        break;
     }
@@ -313,38 +312,37 @@ int main(int ac, char **av)
 
     ps_push(stack_for_max_a, stack_for_min_b);
 //    ps_swap(stack_for_max_a);
-    ps_push(stack_for_max_a, stack_for_min_b);
+//    ps_push(stack_for_max_a, stack_for_min_b);
 //    ps_push(stack_for_max_a, stack_for_min_b);
 //    ps_rotate(stack_for_max_a);
+//    ps_swap(stack_for_max_a);
+
 //    ps_revrotate(stack_for_max_a);
 
 
 //    ps_rotate(stack_for_max_a);
 //    ps_revrotate(stack_for_max_a);
+
+    i = 1;
+    while (i++ < 5)
+    {
+        algo(stack_for_max_a, stack_for_min_b);
+    }
+
 
     printf("TOP A: %d\n", stack_for_max_a->top->data);
     printf("SEC A: %d\n", stack_for_max_a->post_top->data);
     printf("DWN A: %d\n", stack_for_max_a->down->data);
-//    printf("PRD A: %d\n", stack_for_max_a->pre_down->data);
-
 
     printf("TOP B: %d\n", stack_for_min_b->top->data);
     printf("SEC B: %d\n", stack_for_min_b->post_top->data);
     printf("DWN B: %d\n", stack_for_min_b->down->data);
-//    printf("PRD B: %d\n", stack_for_min_b->pre_down->data);
 
-    i = 1;
-//    while (i++ < 4)
-//    {
-//        algo(stack_for_max_a, stack_for_min_b);
-//    }
+    printf("median a: %d\n", stack_for_max_a->median);
+    printf("median b: %d\n", stack_for_min_b->median);
 
 
-    node = stack_for_max_a->down->prev;
-    printf("DOWN A PREV: %d\n", node->data);
     ft_print_stacks(stack_for_min_b, stack_for_max_a);
-
-//    printf("DOWN: %d", stack_for_max_a->down->data);
 
 
 }

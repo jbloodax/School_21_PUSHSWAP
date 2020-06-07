@@ -27,17 +27,7 @@ typedef struct s_dbll_lst
     int median;
     tt_node *top;
     tt_node *post_top;
-//    tt_node *pre_down;
     tt_node *down;
 }               t_dbll_lst;
 
 #endif //PUSH_SWAP_2_PUSH_SWAP_H
-
-
-//node->prev = NULL;
-//node->next = chain->top;
-//if (chain->top)
-//chain->top->prev = node;
-//chain->top = node;
-//if (chain->down == NULL)
-//chain->down = node;
