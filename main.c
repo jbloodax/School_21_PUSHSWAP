@@ -354,6 +354,8 @@ int     check_over_median(t_dbll_lst *stack)
         node = node->next;
     }
     if (result == stack->size)
+        return (1);
+    else if (result >= 1)
         return (result);
     else
         return (0);
@@ -456,7 +458,7 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
 void split_chain_to_4_part(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
 {
 
-    while (1 && !check_over_median(stack_a))
+    while (1 && check_over_median(stack_a) != 1)
     {
         if (stack_a->top->data > stack_a->median
             || stack_a->top->data > stack_a->down->data)
@@ -633,8 +635,8 @@ int main(int ac, char **av)
 
     while (1)
     {
-        if (check_sort(stack_for_max_a, 1)
-            || stack_for_min_b->top->data > stack_for_max_a->median)
+        if (check_sort(stack_for_max_a, 1))
+//            || stack_for_min_b->top->data > stack_for_max_a->median)
             break ;
 
         while (!check_sort(stack_for_max_a, 1))
@@ -642,10 +644,15 @@ int main(int ac, char **av)
             ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
         ft_printf("\n\n");
 
-        while (stack_for_min_b->top->data > stack_for_max_a->median)
+//        while (stack_for_min_b->top->data > stack_for_max_a->median)
+        while (check_over_median(stack_for_min_b) > 1)
             ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
         ft_printf("\n\n");
     }
+
+    if (check_sort(stack_for_max_a, 1) && check_sort(stack_for_min_b, 0))
+        while (stack_for_min_b->top != NULL)
+            ps_push(stack_for_min_b, stack_for_max_a);
 
 
 
