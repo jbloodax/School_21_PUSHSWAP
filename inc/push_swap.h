@@ -25,6 +25,7 @@ typedef struct s_dbll_lst
     int min;
     int max;
     int median;
+    int sorting;
     tt_node *start_sort;
     tt_node *end_sort;
     int is_sorted;
