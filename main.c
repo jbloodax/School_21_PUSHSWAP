@@ -156,7 +156,6 @@ void    *ps_push(t_dbll_lst *stack_from, t_dbll_lst *stack_to)
         stack_from->post_top = stack_from->top->next;
     }
 
-
     if (stack_to->down == NULL)
     {
         stack_to->down = tmp;
@@ -175,7 +174,7 @@ void    *ps_push(t_dbll_lst *stack_from, t_dbll_lst *stack_to)
     stack_from->size--;
     stack_to->size++;
 
-    printf("push ");
+    printf("p%c ", stack_to->name);
 
 }
 
@@ -199,7 +198,7 @@ void *ps_swap(t_dbll_lst *stack)
     stack->post_top = stack->top->next;
     stack->post_top->prev = stack->top;
     stack->top->prev = NULL;
-    printf("swap ");
+    printf("s%c ", stack->name);
 
 
 
@@ -220,7 +219,7 @@ void *ps_revrotate(t_dbll_lst *stack)
     stack->top = tmp;
     stack->top->prev = NULL;
     stack->down->next = NULL;
-    printf("revrotate ");
+    printf("rr%c ", stack->name);
 
 
 }
@@ -240,7 +239,7 @@ void *ps_rotate(t_dbll_lst *stack)
     stack->down = tmp;
     stack->top->prev = NULL;
     stack->down->next = NULL;
-    printf("rotate ");
+    printf("r%c ", stack->name);
 }
 
 
@@ -256,13 +255,17 @@ void    *ft_print_stacks(t_dbll_lst *stack_1, t_dbll_lst *stack_2)
     node = stack_1->top;
 
     printf("\nSTACK B:\n");
-    if (stack_1) {
-        while (i++ <= stack_1->size) {
+    if (stack_1->top->data != 0)
+    {
+        while (i++ <= stack_1->size)
+        {
             printf("%d  ", node->data);
             node = node->next;
         }
         printf("\n");
     }
+    else
+        printf("\n");
     i = 1;
     node = stack_2->top;
 
@@ -291,7 +294,6 @@ int     *check_sort(t_dbll_lst *stack, int is_rise)
     node_second = stack->post_top;
 
 
-    stack->start_sort = stack->top;
 
     if (stack->size == 2)
         printf("2\n");
@@ -304,7 +306,6 @@ int     *check_sort(t_dbll_lst *stack, int is_rise)
             {
                 max_len_sort += 1;
 //                stack->start_sort = node_first;
-                stack->end_sort = node_second;
             }
             else
                 max_len_sort = 1;
@@ -316,8 +317,6 @@ int     *check_sort(t_dbll_lst *stack, int is_rise)
             if (node_first->data < node_second->data)
             {
                 max_len_sort += 1;
-//                stack->start_sort = node_first;
-                stack->end_sort = node_second;
             }
             else
             {
@@ -339,7 +338,7 @@ int     *check_sort(t_dbll_lst *stack, int is_rise)
 }
 
 
-int     check_over_median(t_dbll_lst *stack)
+int     check_over_value(t_dbll_lst *stack, int value)
 {
     int result;
     tt_node *node;
@@ -349,20 +348,16 @@ int     check_over_median(t_dbll_lst *stack)
     node = stack->top;
     while (node)
     {
-        if (node->data > stack->median)
+        if (node->data > value)
             result++;
         node = node->next;
     }
     if (result == stack->size)
         return (1);
     else if (result >= 1)
-        return (result);
+        return (-1);
     else
         return (0);
-
-    printf ("RESULT OVER MED: %d\n", result);
-
-
 }
 
 void ft_sort_stack_rise(t_dbll_lst *stack, t_dbll_lst *stack_addit)
@@ -397,7 +392,6 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
     else
     {
         while (1)
-    //    if (!check_sort(stack, 0))
         {
             if (stack->top->data < stack->down->data)
                 ps_rotate(stack);
@@ -408,6 +402,7 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
             else
             {
                 ps_push(stack, stack_addit);
+//                continue ;
 
                 if (stack->top->data < stack->down->data)
                     ps_rotate(stack);
@@ -420,7 +415,6 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
                 else
                     return ;
             }
-
 
     //        else
     //        {
@@ -441,44 +435,36 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
     //                printf("CHECK");
         }
     }
-
-
-//
-//    else
-//        return (0);
-
-    printf("\n");
-
-
-
 }
 
 
 
 void split_chain_to_4_part(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
 {
+    int i;
 
-    while (1 && check_over_median(stack_a) != 1)
+    i = stack_a->size;
+
+    while (i-- > 0)
+//    while (check_over_value(stack_a, stack_a->median) != 1)
     {
-        if (stack_a->top->data > stack_a->median
-            || stack_a->top->data > stack_a->down->data)
+        if (stack_a->top->data > stack_a->median)
+//            || stack_a->top->data > stack_a->down->data)
             ps_rotate(stack_a);
         else if (stack_a->top->data < stack_b->median)
         {
             ps_push(stack_a, stack_b);
             ps_rotate(stack_b);
         }
+//        else if (stack_b->top->data < stack_b->post_top->data)
+//            ps_swap(stack_b);
 
-        else if (stack_b->top->data < stack_b->post_top->data)
-            ps_swap(stack_b);
-
-        else if (stack_a->top->data > stack_b->median
-            && stack_a->top->data < stack_a->median)
-            ps_push(stack_a, stack_b);
+//        else if (stack_a->top->data > stack_b->median
+//            && stack_a->top->data < stack_a->median)
+//            ps_push(stack_a, stack_b);
         else
-            return ;
+            ps_push(stack_a, stack_b);
     }
-
 
 //    else
 //        ps_push(stack_a, stack_b);
@@ -556,6 +542,7 @@ int main(int ac, char **av)
 {
     int i;
     int array_data[ac-1];
+    int array_bounds[3];
     t_dbll_lst *stack_for_max_a;
     t_dbll_lst *stack_for_min_b;
     tt_node *node;  // TEMP
@@ -576,9 +563,19 @@ int main(int ac, char **av)
     }
     ft_printf("\n");
 
+    i = 0;
+
+    while (i < 3)
+    {
+        array_bounds[i] = ft_bound(array_data, ac-1, 3-i);
+        printf("ARRAY BOUNDS %d: -%d-\n", i, array_bounds[i]);
+        i++;
+    }
 
     stack_for_max_a = ft_mark_stack(array_data, ac - 1, 1);
     stack_for_min_b = ft_mark_stack(array_data, ac - 1, -1);
+    stack_for_max_a->name = 'a';
+    stack_for_min_b->name = 'b';
     stack_for_max_a = input_chain(ac, av, stack_for_max_a);
 
 //    printf("median A: %d\n", stack_for_max_a->median);
@@ -588,104 +585,63 @@ int main(int ac, char **av)
         ps_rotate(stack_for_max_a);
     else
         ps_push(stack_for_max_a, stack_for_min_b);
-//    ps_swap(stack_for_max_a);
-//    ps_push(stack_for_max_a, stack_for_min_b);
-//    ps_push(stack_for_max_a, stack_for_min_b);
-//    ps_rotate(stack_for_max_a);
-//    ps_swap(stack_for_max_a);
 
-//    ps_revrotate(stack_for_max_a);
-
-//    ps_rotate(stack_for_max_a);
-//    ps_revrotate(stack_for_max_a);
 
     i = 0;
-//    while (i++ < 14)
-
-//    printf("CHECK SORT ALG: %d\n", check_sort(stack_for_max_a, 0));
-
-//    printf("RES: %d\n", check_over_median(stack_for_max_a));
-
-
 
     split_chain_to_4_part(stack_for_max_a, stack_for_min_b);
-
-
-//    while (!check_over_median(stack_for_max_a))
-//    {
-////        algo(stack_for_max_a, stack_for_min_b);
-//        split_chain_to_4_part(stack_for_max_a, stack_for_min_b);
-//        ft_print_stacks(stack_for_min_b, stack_for_max_a);
-////        printf("\nCHECK: %d", check_over_median(stack_for_max_a));
-//    }
-//    printf("\n");
-
-
-////    while (i++ < 1)
-
-//    while (!check_sort(stack_for_max_a, 1)
-//            && stack_for_min_b->top->data > stack_for_max_a->median)
-//    {
-//        ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
-//        while (stack_for_min_b->top->data > stack_for_max_a->median)
-//
-//            ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
-//
-//    }
 
     while (1)
     {
         if (check_sort(stack_for_max_a, 1))
-//            || stack_for_min_b->top->data > stack_for_max_a->median)
+//        {
+//            if (check_sort(stack_for_min_b, 0))
+//                break;
+//            else
+//                i++;
+//        }
             break ;
 
         while (!check_sort(stack_for_max_a, 1))
-
             ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
         ft_printf("\n\n");
 
-//        while (stack_for_min_b->top->data > stack_for_max_a->median)
-        while (check_over_median(stack_for_min_b) > 1)
+        while (check_over_value(stack_for_min_b, array_bounds[2]) == -1)
             ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
         ft_printf("\n\n");
     }
 
-    if (check_sort(stack_for_max_a, 1) && check_sort(stack_for_min_b, 0))
-        while (stack_for_min_b->top != NULL)
-            ps_push(stack_for_min_b, stack_for_max_a);
+//    ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
 
 
-
-
-
-
+//    while (1)
+//    {
 //
-//    while (stack_for_min_b->top->data > stack_for_min_b->post_top->data
-//        && stack_for_min_b->top->data < stack_for_max_a->top->data)
-//        ps_push(stack_for_min_b, stack_for_max_a);
-//    printf("\n");
+//        if (check_sort(stack_for_max_a, 1))
+//            break ;
+//
+//        while (!check_sort(stack_for_max_a, 1))
+//            ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
+//        ft_printf("\n\n");
+//
+//        while (check_over_value(stack_for_min_b, array_bounds[2]) == -1)
+//            ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
+//        ft_printf("\n\n");
+//    }
+
+
+
+//    if (check_sort(stack_for_max_a, 1) && check_sort(stack_for_min_b, 0))
+//        while (stack_for_min_b->top != NULL)
+//            ps_push(stack_for_min_b, stack_for_max_a);
+
+
+
+
+
 
     ft_print_stacks(stack_for_min_b, stack_for_max_a);
 
-
-////    while (i++ < 3)
-
-//    while (!check_sort(stack_for_min_b, 0) )
-//    while (stack_for_min_b->size != 2)
-//    {
-////        printf("\nCHECK SORT: %d\n", check_sort(stack_for_min_b, 0));
-//        ft_sort_stack_low(stack_for_min_b, stack_for_max_a);
-//        printf("\n");
-//        ft_print_stacks(stack_for_min_b, stack_for_max_a);
-
-//    }
-//    printf("\n");
-
-
-
-
-
-//    check_sort(stack_for_max_a, 1);
 
 
 //    printf("TOP A: %d\n", stack_for_max_a->top->data);
@@ -707,14 +663,6 @@ int main(int ac, char **av)
 //    printf("SORT: FIRST: %d\n", stack_for_max_a->start_sort->data);
 //    printf("SORT: LAST:  %d\n", stack_for_max_a->end_sort->data);
 //    printf("SORT: COUNT: %d\n", stack_for_max_a->is_sorted);
-
-
-
-//    ft_print_stacks(0, stack_for_max_a);
-
-//    ft_print_stacks(stack_for_min_b, stack_for_max_a);
-
-
 
 
 

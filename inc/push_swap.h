@@ -22,12 +22,10 @@ typedef struct          ss_list
 typedef struct s_dbll_lst
 {
     size_t size;
+    char name;
     int min;
     int max;
     int median;
-    int sorting;
-    tt_node *start_sort;
-    tt_node *end_sort;
     int is_sorted;
     tt_node *top;
     tt_node *post_top;
