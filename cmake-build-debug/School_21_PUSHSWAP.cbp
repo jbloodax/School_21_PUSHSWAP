@@ -8,352 +8,352 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="School_21_PUSHSWAP">
-				<Option output="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/School_21_PUSHSWAP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug"/>
+				<Option output="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/School_21_PUSHSWAP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/inc"/>
-					<Add directory="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/clone_push_swap/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/clone_push_swap/src"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 School_21_PUSHSWAP"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 School_21_PUSHSWAP"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="School_21_PUSHSWAP/fast">
-				<Option output="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/School_21_PUSHSWAP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug"/>
+				<Option output="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/School_21_PUSHSWAP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/inc"/>
-					<Add directory="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/clone_push_swap/inc"/>
+					<Add directory="C:/Users/Valeria/CLionProjects/clone_push_swap/src"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 School_21_PUSHSWAP/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 School_21_PUSHSWAP/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Valeria/CLionProjects/clone_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/inc/ft_printf.h">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/inc/ft_printf.h">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/inc/libft.h">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/inc/libft.h">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/inc/push_swap.h">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/inc/push_swap.h">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/main.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/main.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_abs.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_abs.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_atoi.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_atoi.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_bzero.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_bzero.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_colors.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_colors.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_dtoa.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_dtoa.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_int_length_base.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_int_length_base.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isalnum.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isalnum.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isalpha.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isalpha.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isascii.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isascii.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isdigit.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isdigit.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isprint.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isprint.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_isspace.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_isspace.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_itoa.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_itoa.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstadd.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstadd.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstadd_last.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstadd_last.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstdel.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstdel.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstdelone.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstdelone.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstiter.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstiter.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstmap.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstmap.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstnew.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstnew.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_lstrev.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_lstrev.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_ltoa.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_ltoa.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memalloc.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memalloc.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memccpy.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memccpy.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memchr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memchr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memcmp.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memcmp.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memcpy.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memcpy.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memdel.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memdel.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memmove.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memmove.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_memset.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_memset.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_mng_float.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_mng_float.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_mng_params.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_mng_params.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_pow.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_pow.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_arg.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_arg.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_char.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_char.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_float.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_float.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_float_concat.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_float_concat.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_float_determ.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_float_determ.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_float_spec.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_float_spec.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_int_0.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_int_0.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_int_1.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_int_1.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_oct_hex.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_oct_hex.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_print_str.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_print_str.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_printf.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_printf.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putchar.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putchar.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putchar_fd.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putchar_fd.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putendl.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putendl.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putendl_fd.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putendl_fd.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putnbr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putnbr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putnbr_fd.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putnbr_fd.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putstr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putstr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_putstr_fd.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_putstr_fd.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_read_params.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_read_params.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strcat.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strcat.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strchr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strchr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strchrn.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strchrn.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strclr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strclr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strcmp.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strcmp.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strcpy.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strcpy.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strdel.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strdel.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strdup.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strdup.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strequ.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strequ.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_striter.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_striter.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_striteri.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_striteri.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strjoin.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strjoin.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strlcat.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strlcat.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strlen.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strlen.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strmap.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strmap.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strmapi.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strmapi.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strncat.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strncat.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strncmp.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strncmp.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strncpy.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strncpy.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strnequ.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strnequ.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strnew.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strnew.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strnstr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strnstr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strrchr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strrchr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strrev.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strrev.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strsplit.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strsplit.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strstr.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strstr.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strsub.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strsub.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strtolower.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strtolower.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strtoupper.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strtoupper.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_strtrim.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_strtrim.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_tolower.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_tolower.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_toupper.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_toupper.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_wordlen.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_wordlen.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/src/ft_wrdcnt.c">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/src/ft_wrdcnt.c">
 			<Option target="School_21_PUSHSWAP"/>
 		</Unit>
-		<Unit filename="C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/CMakeLists.txt">
+		<Unit filename="C:/Users/Valeria/CLionProjects/clone_push_swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

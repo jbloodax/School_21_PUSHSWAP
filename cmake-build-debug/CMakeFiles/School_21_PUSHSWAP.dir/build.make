@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP
+CMAKE_SOURCE_DIR = C:\Users\Valeria\CLionProjects\clone_push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/School_21_PUSHSWAP.dir/depend.make
@@ -59,1234 +59,1234 @@ include CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.obj: ../src/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_abs.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_abs.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_abs.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_abs.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_abs.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_abs.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_abs.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.obj: ../src/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_atoi.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_atoi.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_atoi.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_atoi.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_atoi.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_atoi.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_atoi.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.obj: ../src/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_bzero.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_bzero.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_bzero.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_bzero.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_bzero.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_bzero.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_bzero.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.obj: ../src/ft_colors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_colors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_colors.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_colors.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_colors.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_colors.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_colors.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_colors.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_colors.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.obj: ../src/ft_dtoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_dtoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_dtoa.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_dtoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_dtoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_dtoa.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_dtoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_dtoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_dtoa.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.obj: ../src/ft_int_length_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_int_length_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_int_length_base.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_int_length_base.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_int_length_base.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_int_length_base.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_int_length_base.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_int_length_base.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_int_length_base.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.obj: ../src/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalnum.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalnum.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalnum.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalnum.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalnum.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalnum.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalnum.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.obj: ../src/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalpha.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalpha.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalpha.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isalpha.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isalpha.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isalpha.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isalpha.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.obj: ../src/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isascii.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isascii.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isascii.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isascii.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isascii.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isascii.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isascii.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.obj: ../src/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isdigit.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isdigit.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isdigit.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isdigit.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isdigit.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isdigit.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isdigit.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.obj: ../src/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isprint.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isprint.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isprint.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isprint.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isprint.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isprint.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isprint.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.obj: ../src/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isspace.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isspace.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isspace.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_isspace.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_isspace.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_isspace.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_isspace.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.obj: ../src/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_itoa.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_itoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_itoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_itoa.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_itoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_itoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_itoa.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.obj: ../src/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.obj: ../src/ft_lstadd_last.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd_last.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd_last.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd_last.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd_last.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstadd_last.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstadd_last.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstadd_last.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstadd_last.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.obj: ../src/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdel.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdel.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdel.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.obj: ../src/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdelone.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdelone.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdelone.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstdelone.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstdelone.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstdelone.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstdelone.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.obj: ../src/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstiter.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstiter.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstiter.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstiter.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstiter.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstiter.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstiter.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.obj: ../src/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstmap.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstmap.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstmap.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstmap.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstmap.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstmap.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstmap.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.obj: ../src/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstnew.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstnew.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstnew.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstnew.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstnew.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstnew.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstnew.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.obj: ../src/ft_lstrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstrev.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstrev.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstrev.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_lstrev.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_lstrev.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_lstrev.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_lstrev.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.obj: ../src/ft_ltoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_ltoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_ltoa.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_ltoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_ltoa.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_ltoa.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_ltoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_ltoa.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_ltoa.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.obj: ../src/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memalloc.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memalloc.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memalloc.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memalloc.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memalloc.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memalloc.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memalloc.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.obj: ../src/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memccpy.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memccpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memccpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memccpy.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memccpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memccpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memccpy.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.obj: ../src/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memchr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memchr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memchr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.obj: ../src/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcmp.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcmp.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcmp.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.obj: ../src/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcpy.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memcpy.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memcpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memcpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memcpy.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.obj: ../src/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memdel.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memdel.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memdel.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.obj: ../src/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memmove.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memmove.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memmove.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memmove.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memmove.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memmove.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memmove.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.obj: ../src/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memset.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memset.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memset.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_memset.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_memset.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_memset.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_memset.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.obj: ../src/ft_mng_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_float.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_float.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_float.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_float.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_float.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_float.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_float.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.obj: ../src/ft_mng_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_params.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_params.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_params.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_mng_params.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_mng_params.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_mng_params.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_mng_params.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.obj: ../src/ft_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_pow.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_pow.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_pow.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_pow.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_pow.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_pow.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_pow.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.obj: ../src/ft_print_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_arg.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_arg.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_arg.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_arg.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_arg.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_arg.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_arg.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.obj: ../src/ft_print_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_char.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_char.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_char.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_char.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_char.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_char.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_char.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_char.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.obj: ../src/ft_print_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.obj: ../src/ft_print_float_concat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_concat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_concat.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_concat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_concat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_concat.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_concat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_concat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_concat.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.obj: ../src/ft_print_float_determ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_determ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_determ.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_determ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_determ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_determ.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_determ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_determ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_determ.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.obj: ../src/ft_print_float_spec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_spec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_spec.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_spec.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_spec.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_float_spec.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_float_spec.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_float_spec.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_float_spec.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.obj: ../src/ft_print_int_0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_0.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_0.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_0.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_0.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_0.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_0.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_0.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.obj: ../src/ft_print_int_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_1.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_1.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_1.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_int_1.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_int_1.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_int_1.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_int_1.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.obj: ../src/ft_print_oct_hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_oct_hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_oct_hex.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_oct_hex.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_oct_hex.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_oct_hex.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_oct_hex.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_oct_hex.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_oct_hex.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.obj: ../src/ft_print_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_str.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_str.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_str.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_print_str.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_print_str.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_print_str.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_print_str.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.obj: ../src/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_printf.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_printf.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_printf.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_printf.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_printf.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_printf.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_printf.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.obj: ../src/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.obj: ../src/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar_fd.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putchar_fd.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putchar_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putchar_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putchar_fd.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.obj: ../src/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.obj: ../src/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl_fd.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putendl_fd.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putendl_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putendl_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putendl_fd.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.obj: ../src/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.obj: ../src/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr_fd.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putnbr_fd.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putnbr_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putnbr_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putnbr_fd.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.obj: ../src/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.obj: ../src/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr_fd.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr_fd.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_putstr_fd.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_putstr_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_putstr_fd.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_putstr_fd.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.obj: ../src/ft_read_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_read_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_read_params.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_read_params.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_read_params.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_read_params.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_read_params.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_read_params.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_read_params.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.obj: ../src/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcat.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcat.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcat.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.obj: ../src/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.obj: ../src/ft_strchrn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchrn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchrn.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchrn.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchrn.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strchrn.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strchrn.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strchrn.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strchrn.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.obj: ../src/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strclr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strclr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strclr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strclr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strclr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strclr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strclr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.obj: ../src/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcmp.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcmp.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcmp.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.obj: ../src/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcpy.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strcpy.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strcpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strcpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strcpy.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.obj: ../src/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdel.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdel.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdel.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdel.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdel.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.obj: ../src/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdup.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdup.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdup.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strdup.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strdup.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strdup.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strdup.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.obj: ../src/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strequ.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strequ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strequ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strequ.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strequ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strequ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strequ.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.obj: ../src/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striter.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striter.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striter.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striter.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striter.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striter.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striter.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.obj: ../src/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striteri.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striteri.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striteri.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_striteri.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_striteri.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_striteri.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_striteri.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.obj: ../src/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strjoin.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strjoin.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strjoin.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strjoin.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strjoin.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strjoin.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strjoin.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.obj: ../src/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlcat.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlcat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlcat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlcat.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlcat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlcat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlcat.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.obj: ../src/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlen.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlen.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlen.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strlen.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strlen.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strlen.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strlen.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.obj: ../src/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmap.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmap.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmap.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmap.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmap.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmap.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmap.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.obj: ../src/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmapi.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmapi.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmapi.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strmapi.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strmapi.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strmapi.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strmapi.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.obj: ../src/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncat.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncat.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncat.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncat.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncat.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.obj: ../src/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncmp.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncmp.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncmp.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncmp.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncmp.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.obj: ../src/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncpy.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncpy.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strncpy.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strncpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strncpy.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strncpy.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.obj: ../src/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnequ.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnequ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnequ.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnequ.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnequ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnequ.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnequ.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.obj: ../src/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnew.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnew.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnew.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnew.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnew.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnew.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnew.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.obj: ../src/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnstr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strnstr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strnstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strnstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strnstr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.obj: ../src/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrchr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrchr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrchr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrchr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrchr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.obj: ../src/ft_strrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrev.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrev.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrev.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strrev.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strrev.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strrev.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strrev.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.obj: ../src/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsplit.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsplit.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsplit.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsplit.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsplit.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsplit.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsplit.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.obj: ../src/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strstr.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strstr.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strstr.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strstr.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strstr.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.obj: ../src/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsub.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsub.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsub.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strsub.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strsub.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strsub.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strsub.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.obj: ../src/ft_strtolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtolower.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtolower.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtolower.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtolower.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtolower.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtolower.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtolower.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.obj: ../src/ft_strtoupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtoupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtoupper.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtoupper.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtoupper.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtoupper.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtoupper.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtoupper.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtoupper.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.obj: ../src/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtrim.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtrim.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtrim.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_strtrim.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_strtrim.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_strtrim.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_strtrim.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.obj: ../src/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_tolower.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_tolower.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_tolower.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_tolower.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_tolower.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_tolower.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_tolower.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.obj: ../src/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_toupper.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_toupper.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_toupper.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_toupper.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_toupper.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_toupper.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_toupper.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.obj: ../src/ft_wordlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wordlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wordlen.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wordlen.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wordlen.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wordlen.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wordlen.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wordlen.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wordlen.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.obj: ../src/ft_wrdcnt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wrdcnt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wrdcnt.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wrdcnt.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wrdcnt.c > CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/src/ft_wrdcnt.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\src\ft_wrdcnt.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\src\ft_wrdcnt.c -o CMakeFiles\School_21_PUSHSWAP.dir\src\ft_wrdcnt.c.s
 
 CMakeFiles/School_21_PUSHSWAP.dir/main.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/flags.make
 CMakeFiles/School_21_PUSHSWAP.dir/main.c.obj: CMakeFiles/School_21_PUSHSWAP.dir/includes_C.rsp
 CMakeFiles/School_21_PUSHSWAP.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\main.c.obj   -c C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/School_21_PUSHSWAP.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\School_21_PUSHSWAP.dir\main.c.obj   -c C:\Users\Valeria\CLionProjects\clone_push_swap\main.c
 
 CMakeFiles/School_21_PUSHSWAP.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/School_21_PUSHSWAP.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\main.c > CMakeFiles\School_21_PUSHSWAP.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Valeria\CLionProjects\clone_push_swap\main.c > CMakeFiles\School_21_PUSHSWAP.dir\main.c.i
 
 CMakeFiles/School_21_PUSHSWAP.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/School_21_PUSHSWAP.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\main.c -o CMakeFiles\School_21_PUSHSWAP.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Valeria\CLionProjects\clone_push_swap\main.c -o CMakeFiles\School_21_PUSHSWAP.dir\main.c.s
 
 # Object files for target School_21_PUSHSWAP
 School_21_PUSHSWAP_OBJECTS = \
@@ -1474,7 +1474,7 @@ School_21_PUSHSWAP.exe: CMakeFiles/School_21_PUSHSWAP.dir/build.make
 School_21_PUSHSWAP.exe: CMakeFiles/School_21_PUSHSWAP.dir/linklibs.rsp
 School_21_PUSHSWAP.exe: CMakeFiles/School_21_PUSHSWAP.dir/objects1.rsp
 School_21_PUSHSWAP.exe: CMakeFiles/School_21_PUSHSWAP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking C executable School_21_PUSHSWAP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking C executable School_21_PUSHSWAP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\School_21_PUSHSWAP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1487,6 +1487,6 @@ CMakeFiles/School_21_PUSHSWAP.dir/clean:
 .PHONY : CMakeFiles/School_21_PUSHSWAP.dir/clean
 
 CMakeFiles/School_21_PUSHSWAP.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug C:\Users\Valeria\CLionProjects\School_21_PUSHSWAP\cmake-build-debug\CMakeFiles\School_21_PUSHSWAP.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Valeria\CLionProjects\clone_push_swap C:\Users\Valeria\CLionProjects\clone_push_swap C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug C:\Users\Valeria\CLionProjects\clone_push_swap\cmake-build-debug\CMakeFiles\School_21_PUSHSWAP.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/School_21_PUSHSWAP.dir/depend
 

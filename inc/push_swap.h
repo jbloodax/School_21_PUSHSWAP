@@ -10,10 +10,15 @@
 # include <stdlib.h>
 # include <string.h>
 
+
+#define SIMPLE_MAX_SIZE 20
+#define MAX_INT 2147483647
+
 typedef struct          ss_list
 {
     //signed long
     int data;
+    int position;
     size_t data_size;
     struct ss_lst *prev;
     struct ss_lst *next;
