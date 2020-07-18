@@ -556,6 +556,33 @@ void ft_sort_stack_low(t_dbll_lst *stack, t_dbll_lst *stack_addit)
 }
 
 
+void split_chain(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
+{
+    int i;
+    int bound_top;
+    int bound_down;
+
+    i = stack_a->size;
+    bound_top = (stack_a->max + stack_b->min) / 3 * 2;
+    bound_down = (stack_a->max + stack_b->min) / 3;
+
+    printf("NEW BOUNDS: %d, %d\n", bound_top, bound_down);
+
+    while (i-- > 0)
+    {
+        if (stack_a->top->data > bound_top)
+            ps_rotate(stack_a);
+        else if (stack_a->top->data < bound_down)
+        {
+            ps_push(stack_a, stack_b);
+            ps_rotate(stack_b);
+        }
+        else
+            ps_push(stack_a, stack_b);
+    }
+}
+
+
 
 void   split_chain_to_4_part(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
 {
@@ -566,10 +593,10 @@ void   split_chain_to_4_part(t_dbll_lst *stack_a, t_dbll_lst *stack_b)
     while (i-- > 0)
 //    while (check_over_value(stack_a, stack_a->median) != 1)
     {
-        if (stack_a->top->data > stack_a->median)
+        if (stack_a->top->data > stack_a->min)
 //            || stack_a->top->data > stack_a->down->data)
             ps_rotate(stack_a);
-        else if (stack_a->top->data < stack_b->median)
+        else if (stack_a->top->data < stack_b->min)
         {
             ps_push(stack_a, stack_b);
             ps_rotate(stack_b);
@@ -869,22 +896,24 @@ int main(int ac, char **av)
 
     i = 0;
 
-    if (stack_for_max_a->size > SIMPLE_MAX_SIZE)
-        split_chain_to_4_part(stack_for_max_a, stack_for_min_b);
+//    if (stack_for_max_a->size > SIMPLE_MAX_SIZE)
+//        split_chain_to_4_part(stack_for_max_a, stack_for_min_b);
 
-//    while (!check_sort(stack_for_max_a, 1))
-//        ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
+    split_chain(stack_for_max_a, stack_for_min_b);
+
+    while (!check_sort(stack_for_max_a, 1))
+        ft_sort_stack_rise(stack_for_max_a, stack_for_min_b);
 //
 //
 //    ft_find_max_position(stack_for_max_a);
 //    i = 0;
 //
 //
-//    while (stack_for_min_b->size != 1)
-//        ft_sort(stack_for_max_a, stack_for_min_b);
+    while (stack_for_min_b->size != 1)
+        ft_sort(stack_for_max_a, stack_for_min_b);
 
 
-    ft_sort_stack_a(stack_for_max_a, stack_for_min_b);
+//    ft_sort_stack_a(stack_for_max_a, stack_for_min_b);
 
 
     ft_print_stacks(stack_for_min_b, stack_for_max_a);
