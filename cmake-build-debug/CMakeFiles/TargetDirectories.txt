@@ -1,3 +1,0 @@
-/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir

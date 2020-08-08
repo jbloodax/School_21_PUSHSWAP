@@ -127,6 +127,7 @@ int			main(int ac, char **av)
 		array_args = ft_strsplit(av[1], ' ');
 		av = array_args;
 		not_str_input = 0;
+		check_split_array(av, ac);
 	}
 	check_input_error(ac, av);
 	stack_a = create_stack('a');

@@ -39,7 +39,8 @@ typedef struct		s_stack
 	int				min;
 }					t_stack;
 
-void 				check_input_exceptions(int ac, char **av);
+void				check_split_array(char **array, int size_array);
+void				check_input_exceptions(int ac, char **av);
 void				check_input_error(int ac, char **av);
 int					check_args(int ac, char **av);
 int					check_sort(t_stack *stack);

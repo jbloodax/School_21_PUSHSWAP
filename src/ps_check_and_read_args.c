@@ -11,20 +11,43 @@
 /* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdio.h>
+
+void	check_split_array(char **array, int size_array)
+{
+	char	*str;
+	int		i;
+	int		count;
+
+	i = -1;
+	count = 0;
+	while (array[++i])
+	{
+		if (array[i])
+			count++;
+		str = ft_itoa(ft_atoi(array[i]));
+		if (!(ft_strequ(array[i], str)))
+		{
+			ft_putstr_fd("Error: wrong args\n", 2);
+			exit(1);
+		}
+		free(str);
+	}
+	if (count < size_array)
+	{
+		ft_putstr_fd("Error: excess space into input line\n", 2);
+		exit(1);
+	}
+}
 
 
 void	check_input_exceptions(int ac, char **av)
 {
-
-	if (ac == 2 || ac == 1)
+	if (ac == 2)
 	{
 		if ((!av[1][0])
-			|| (count_char_into_string(av[1], ' ') == ft_strlen(av[1]))
-			|| ft_isascii(av[1][0]) < 48 || ft_isascii(av[1][0]) > 57
-			|| ac == 1)
+			|| (count_char_into_string(av[1], ' ') == ft_strlen(av[1])))
 		{
-			ft_putstr_fd("Error\n", 2);
+			ft_putstr_fd("Error: empty input line\n", 2);
 			exit(1);
 		}
 	}
@@ -43,7 +66,6 @@ int		check_args(int ac, char **av)
 	{
 		str = ft_itoa(ft_atoi(av[i]));
 		if (!(ft_strequ(av[i], str)))
-//			|| ft_isascii(av[i][0]) < 48 || ft_isascii(av[i][0]) > 57)
 			return (-1);
 		free(str);
 		j = 0;
@@ -64,12 +86,12 @@ void	check_input_error(int ac, char **av)
 	if (ac == 1)
 	{
 		if (ft_isalpha(av[0][0]))
-			ft_putstr_fd("Error\n", 2);
+			ft_putstr_fd("Error: wrong args\n", 2);
 		exit(1);
 	}
 	if (check_args(ac, av) == -1)
 	{
-		ft_putstr_fd("Error\n", 2);
+		ft_putstr_fd("Error: wrong args\n", 2);
 		exit(1);
 	}
 }
