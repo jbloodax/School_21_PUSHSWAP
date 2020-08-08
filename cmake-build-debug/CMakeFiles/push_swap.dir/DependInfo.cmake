@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_atoi.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_bzero.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_count_words.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_count_words.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_freestr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_freestr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_isalnum.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isalnum.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_isalpha.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isalpha.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_isascii.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isascii.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_isdigit.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_isprint.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isprint.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_itoa.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_itoa.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_len_word.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_len_word.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstadd.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstdel.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstdel.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstdelone.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstdelone.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstiter.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstiter.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstmap.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstmap.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_lstnew.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstnew.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memalloc.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memalloc.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memccpy.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memccpy.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memchr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memchr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memcmp.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memcmp.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memcpy.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memcpy.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memdel.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memdel.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memmove.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memmove.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_memset.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memset.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putchar.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putchar_fd.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putendl.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putendl.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putendl_fd.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putendl_fd.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putnbr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putnbr_fd.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putstr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_putstr_fd.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_sort_params.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_sort_params.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_sqrt.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_sqrt.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strcat.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strcat.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strchr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strchr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strclr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strclr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strcmp.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strcpy.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strcpy.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strdel.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strdel.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strdup.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strdup.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strequ.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strequ.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_striter.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_striter.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_striteri.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_striteri.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strjoin.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strlcat.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strlen.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strlen.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strmap.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strmap.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strmapi.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strncat.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strncat.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strncmp.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strncpy.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strncpy.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strnequ.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strnequ.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strnew.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strnew.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strnstr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strrchr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strsplit.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strsplit.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strstr.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strstr.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strsub.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strsub.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_strtrim.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_tolower.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/ft_toupper.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/libft/get_next_line.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/checker.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/checker.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_check_and_read_args.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_check_and_read_args.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_find_median.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_find_median.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_fts_lists.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_fts_lists.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_fts_stacks.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_fts_stacks.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_push_swap.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_push_swap.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_rotate_revrotate.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_rotate_revrotate.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_sort_alg.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_sort_alg.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/ps_stacks_operations.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ps_stacks_operations.c.o"
+  "/Users/jbloodax/GITHUB_jbloodax/push_swap/src/push_swap.c" "/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../includes"
+  "../libft"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

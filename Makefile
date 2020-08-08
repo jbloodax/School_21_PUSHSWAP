@@ -1,63 +1,70 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: akraig <akraig@student.42.fr>              +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/09/17 12:00:21 by akraig            #+#    #+#              #
-#    Updated: 2020/01/23 12:27:16 by akraig           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+FILE_GENERAL = \
+            ps_check_and_read_args \
+            ps_fts_lists \
+            ps_fts_stacks \
+            ps_push_swap \
+            ps_rotate_revrotate \
+            ps_stacks_operations \
 
-.PHONY: all clean fclean re
+FILE_PUSH_SWAP = \
+            ps_find_median \
+            ps_sort_alg \
+			push_swap \
+			$(FILE_GENERAL)
 
-NAME = libftprintf.a
+FILE_CHECKER = \
+			checker \
+			$(FILE_GENERAL)
 
-SRC_DIR = ./src
 
-OBJ_DIR = ./obj
+DIR_SRC			= ./src/
+DIR_INC			= ./includes/
+DIR_LIB			= ./libft/
 
-INC_DIR = ./inc
+SRC_PUSH_SWAP 	= $(addprefix $(DIR_SRC), $(addsuffix .c, $(FILE_PUSH_SWAP)))
+OBJ_PUSH_SWAP 	= $(addsuffix .o, $(FILE_PUSH_SWAP))
 
-FLAGS = -Wall -Werror -Wextra
+SRC_CHECKER 	= $(addprefix $(DIR_SRC), $(addsuffix .c, $(FILE_CHECKER)))
+OBJ_CHECKER 	= $(addsuffix .o, $(FILE_CHECKER))
 
-SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
-ft_isdigit.c ft_isprint.c ft_isspace.c ft_itoa.c ft_lstadd.c ft_abs.c\
-ft_lstadd_last.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c ft_lstmap.c \
-ft_lstnew.c ft_memalloc.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c \
-ft_memdel.c ft_memmove.c ft_memset.c ft_pow.c ft_putchar.c ft_putchar_fd.c \
-ft_putendl.c ft_putendl_fd.c ft_putnbr.c ft_putnbr_fd.c ft_putstr.c \
-ft_putstr_fd.c ft_strcat.c ft_strchr.c ft_strclr.c ft_strcmp.c ft_strcpy.c \
-ft_strdel.c ft_strdup.c ft_strequ.c ft_striter.c ft_striteri.c ft_strchrn.c \
-ft_strjoin.c ft_strlcat.c ft_strlen.c ft_strmap.c ft_strmapi.c ft_strncat.c \
-ft_strncmp.c ft_strncpy.c ft_strnequ.c ft_strnew.c ft_strnstr.c ft_strrchr.c \
-ft_strsplit.c ft_strstr.c ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c \
-ft_wrdcnt.c ft_lstrev.c ft_printf.c ft_int_length_base.c ft_dtoa.c ft_ltoa.c \
-ft_print_char.c ft_print_float.c ft_print_str.c ft_strrev.c ft_strtolower.c \
-ft_strtoupper.c ft_colors.c ft_read_params.c ft_mng_params.c ft_print_arg.c \
-ft_print_int_0.c ft_print_int_1.c ft_print_oct_hex.c ft_print_float_spec.c \
-ft_mng_float.c ft_print_float_determ.c ft_print_float_concat.c
+CC 	   			= gcc
+PUSH_SWAP 		= push_swap
+CHECKER 		= checker
+CFLAGS 	   		= -I$(DIR_INC) -I$(DIR_LIB)
 
-OBJ = $(SRC:.c=.o)
+all: push_swap checker
 
-OBJS = $(addprefix $(OBJ_DIR)/, $(OBJ))
+lib:
+	@make -C $(DIR_LIB)
+	@cp libft/libft.a ./
 
-all: $(OBJ_DIR) $(NAME)
+obj_checker:
+	@$(CC) $(CFLAGS) -c $(SRC_CHECKER)
 
-$(NAME): $(OBJS)
-	@ar rcs $(NAME) $(OBJS)
+obj_push_swap:
+	@$(CC) $(CFLAGS) -c $(SRC_PUSH_SWAP)
 
-$(OBJ_DIR):
-	mkdir -p $(OBJ_DIR)
+checker: lib obj_checker
+	@$(CC) $(CFLAGS) -o $(CHECKER) $(OBJ_CHECKER) libft/libft.a
 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
-	@gcc $(FLAGS) -I $(INC_DIR) -o $@ -c $<
+push_swap: lib obj_push_swap
+	@$(CC) $(CFLAGS) -o $(PUSH_SWAP) $(OBJ_PUSH_SWAP) libft/libft.a
 
 clean:
-	rm -rf $(OBJ_DIR) 
+	@make clean -C $(DIR_LIB)
+	@rm -f $(OBJ_PUSH_SWAP)
+	@rm -f $(OBJ_CHECKER)
+	@rm -f libft.a
 
 fclean: clean
-	rm -f $(NAME)
+	@make fclean -C $(DIR_LIB)
+	@rm -f $(PUSH_SWAP)
+	@rm -f $(CHECKER)
 
 re: fclean all
+
+compile: re
+	@clear
+	./$(PUSH_SWAP)
+
+.PHONY: all clean fclean re compile

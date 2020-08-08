@@ -1,3 +1,3 @@
-C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/CMakeFiles/School_21_PUSHSWAP.dir
-C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Valeria/CLionProjects/School_21_PUSHSWAP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jbloodax/GITHUB_jbloodax/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir
